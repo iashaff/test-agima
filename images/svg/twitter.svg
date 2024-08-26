@@ -1,0 +1,21 @@
+<svg width="69.599854" height="69.599854" viewBox="0 0 69.5999 69.5999" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_23_157_dd" x="0.000000" y="0.000000" width="69.599854" height="69.599854" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="13"/>
+			<feGaussianBlur stdDeviation="6"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0.066667 0 0 0 0 0.07451 0 0 0 0 0.13725 0 0 0 0.078 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+	</defs>
+	<g filter="url(#filter_23_157_dd)">
+		<circle id="Ellipse 177" cx="34.799927" cy="21.800049" r="16.799942" fill="#1A202C" fill-opacity="1.000000"/>
+	</g>
+	<path id="Vector" d="M34.79 5C25.52 5 17.99 12.52 17.99 21.8C17.99 31.07 25.52 38.6 34.79 38.6C44.07 38.6 51.59 31.07 51.59 21.8C51.59 12.52 44.07 5 34.79 5ZM41.63 18.76C41.64 18.9 41.64 19.04 41.64 19.18C41.64 23.56 38.31 28.6 32.22 28.6C30.43 28.6 28.66 28.09 27.15 27.11C27.41 27.14 27.67 27.16 27.94 27.16C29.49 27.16 30.92 26.63 32.05 25.74C31.36 25.73 30.69 25.5 30.14 25.09C29.58 24.68 29.17 24.1 28.96 23.45C29.46 23.54 29.97 23.52 30.45 23.39C29.7 23.24 29.03 22.83 28.55 22.24C28.06 21.65 27.8 20.91 27.8 20.14L27.8 20.1C28.24 20.35 28.76 20.5 29.3 20.52C28.6 20.05 28.1 19.33 27.91 18.51C27.72 17.69 27.85 16.83 28.27 16.1C29.11 17.12 30.14 17.95 31.32 18.55C32.49 19.15 33.78 19.49 35.09 19.56C34.93 18.85 35 18.1 35.3 17.44C35.6 16.77 36.11 16.22 36.75 15.88C37.4 15.54 38.14 15.41 38.85 15.53C39.57 15.65 40.23 16.01 40.73 16.54C41.47 16.39 42.18 16.12 42.83 15.73C42.59 16.5 42.07 17.15 41.38 17.57C42.03 17.49 42.67 17.31 43.28 17.04C42.84 17.71 42.28 18.29 41.63 18.76Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+</svg>

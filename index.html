@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Rhodium+Libre&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <title>Agima test</title>
+  </head>
+  <body>
+     
+      <!--Scroll bar-->
+      <div class="progress-bar" id="progressBar"></div>
+      
+        <!--Header-->
+        <div class="page-container">
+        <header>
+          <nav id="open-menu" class="full-menu">
+            <div class="container">
+              <div class="logo-block">
+                <logo class="logo">AW</logo>
+                <h1>AWESOME BLOG</h1>
+                <button class="menu-btn" id="close-btn">
+                  <svg width="43.999969" 
+                    height="53.036438" 
+                    viewBox="0 0 44 53.0364" 
+                    fill="none" 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <defs/>
+                  <path 
+                    id="Vector" 
+                    d="M19.77 51.03L22 51.03C33.04 51.03 42 40.05 42 26.51C42 12.97 33.04 2 22 2L19.77 2M10.88 37.41L1.99 26.51L10.88 15.62M1.99 26.51L28.66 26.51" 
+                    stroke="#000000" 
+                    stroke-opacity="1.000000" 
+                    stroke-width="4.000000" 
+                    stroke-linejoin="round" 
+                    stroke-linecap="round"/>
+                  </svg>
+                </button>
+              </div>
+              <ul>
+                <li><a href="#">
+                  <svg 
+                    width="11.062500" 
+                    height="22.750000" 
+                    viewBox="0 0 11.0625 22.75" 
+                    fill="none" 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <path id="☲" 
+                    d="M0 22.75L11.06 22.75L11.06 0L0 0L0 22.75ZM9.51 0.84L5.48 10.31L1.46 0.84L9.51 0.84ZM10.21 1.32L10.21 21.43L5.93 11.37L10.21 1.32ZM0.84 21.25L0.84 1.51L5.03 11.37L0.84 21.25ZM9.51 21.9L1.46 21.9L5.48 12.43L9.51 21.9Z"  
+                    fill="#262626" 
+                    fill-opacity="1.000000" 
+                    ill-rule="evenodd"/>
+                  </svg>Home</a>
+                </li>
+                <li><a href="#">
+                  <svg 
+                    width="11.062500" 
+                    height="22.750000" 
+                    viewBox="0 0 11.0625 22.75" 
+                    fill="none" 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <path id="☲" 
+                  d="M0 22.75L11.06 22.75L11.06 0L0 0L0 22.75ZM9.51 0.84L5.48 10.31L1.46 0.84L9.51 0.84ZM10.21 1.32L10.21 21.43L5.93 11.37L10.21 1.32ZM0.84 21.25L0.84 1.51L5.03 11.37L0.84 21.25ZM9.51 21.9L1.46 21.9L5.48 12.43L9.51 21.9Z" 
+                  fill="#262626" 
+                  fill-opacity="1.000000" 
+                  fill-rule="evenodd"/>
+                </svg>All Blog Topics</a>
+                </li>
+                <li><a href="#">
+                  <svg
+                    width="11.062500" 
+                    height="22.750000" 
+                    viewBox="0 0 11.0625 22.75" 
+                    fill="none" 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <path id="☲" 
+                    d="M0 22.75L11.06 22.75L11.06 0L0 0L0 22.75ZM9.51 0.84L5.48 10.31L1.46 0.84L9.51 0.84ZM10.21 1.32L10.21 21.43L5.93 11.37L10.21 1.32ZM0.84 21.25L0.84 1.51L5.03 11.37L0.84 21.25ZM9.51 21.9L1.46 21.9L5.48 12.43L9.51 21.9Z" 
+                    fill="#262626" 
+                    fill-opacity="1.000000" 
+                    fill-rule="evenodd"/>
+                  </svg>About</a>
+                </li>
+                <li><a href="#">
+                  <svg
+                    width="11.062500" 
+                    height="22.750000" 
+                    viewBox="0 0 11.0625 22.75" 
+                    fill="none" 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <path id="☲" 
+                    d="M0 22.75L11.06 22.75L11.06 0L0 0L0 22.75ZM9.51 0.84L5.48 10.31L1.46 0.84L9.51 0.84ZM10.21 1.32L10.21 21.43L5.93 11.37L10.21 1.32ZM0.84 21.25L0.84 1.51L5.03 11.37L0.84 21.25ZM9.51 21.9L1.46 21.9L5.48 12.43L9.51 21.9Z" 
+                    fill="#262626" 
+                    fill-opacity="1.000000" 
+                    fill-rule="evenodd"/>
+                  </svg>Contacts</a>
+                </li>
+              </ul>
+              <p>Article content</p>
+              <ol>
+                <li><a class="menu-item" href="#part1">What is Lorem Ipsum?</a></li>
+                <li><a class="menu-item" href="#part2">Why do we use it?</a></li>
+                <li><a class="menu-item" href="#part3">Where does it come from?</a></li>
+                  <ol class="ol-paragraph">
+                    <li><a class="menu-item" href="#p1">First Paragraph</a></li>
+                    <li><a class="menu-item" href="#p2">Second Paragraph</a></li>
+                    <li><a class="menu-item" href="#p3">Third Paragraph</a></li>
+                  </ol>
+                </li>
+                <li><a class="menu-item" href="#part4">Where can I get some?</a></li>
+              </ol>
+            </div>
+          </nav>
+          <nav class="close-menu" id="close-menu">
+            <div class="container">
+              <logo class="logo">AW</logo>
+              <h1>AWESOME BLOG</h1>
+              <button id="open-btn" class="close-btn">
+                <svg 
+                  width="43.999969" 
+                  height="53.036438" 
+                  viewBox="0 0 44 53.0364" 
+                  fill="none" 
+                  xmlns="http://www.w3.org/2000/svg" 
+                  xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <defs/>
+                  <path 
+                    id="Vector" 
+                    d="M19.77 51.03L22 51.03C33.04 51.03 42 40.05 42 26.51C42 12.97 33.04 2 22 2L19.77 2M10.88 37.41L1.99 26.51L10.88 15.62M1.99 26.51L28.66 26.51" 
+                    stroke="#000000" 
+                    stroke-opacity="1.000000" 
+                    stroke-width="4.000000" 
+                    stroke-linejoin="round" 
+                    stroke-linecap="round"/>
+                </svg>
+              </button>
+              <ul>
+                <li><a href="#"> <svg 
+                  width="11.062500" 
+                  height="22.750000" 
+                  viewBox="0 0 11.0625 22.75" 
+                  fill="none" 
+                  xmlns="http://www.w3.org/2000/svg" 
+                  xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path id="☲" 
+                  d="M0 22.75L11.06 22.75L11.06 0L0 0L0 22.75ZM9.51 0.84L5.48 10.31L1.46 0.84L9.51 0.84ZM10.21 1.32L10.21 21.43L5.93 11.37L10.21 1.32ZM0.84 21.25L0.84 1.51L5.03 11.37L0.84 21.25ZM9.51 21.9L1.46 21.9L5.48 12.43L9.51 21.9Z"  
+                  fill="#262626" 
+                  fill-opacity="1.000000" 
+                  ill-rule="evenodd"/>
+                </svg></a></li>
+                <li><a href="#"> <svg 
+                  width="11.062500" 
+                  height="22.750000" 
+                  viewBox="0 0 11.0625 22.75" 
+                  fill="none" 
+                  xmlns="http://www.w3.org/2000/svg" 
+                  xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path id="☲" 
+                  d="M0 22.75L11.06 22.75L11.06 0L0 0L0 22.75ZM9.51 0.84L5.48 10.31L1.46 0.84L9.51 0.84ZM10.21 1.32L10.21 21.43L5.93 11.37L10.21 1.32ZM0.84 21.25L0.84 1.51L5.03 11.37L0.84 21.25ZM9.51 21.9L1.46 21.9L5.48 12.43L9.51 21.9Z"  
+                  fill="#262626" 
+                  fill-opacity="1.000000" 
+                  ill-rule="evenodd"/>
+                </svg></a></li>
+                <li><a href="#"> <svg 
+                  width="11.062500" 
+                  height="22.750000" 
+                  viewBox="0 0 11.0625 22.75" 
+                  fill="none" 
+                  xmlns="http://www.w3.org/2000/svg" 
+                  xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path id="☲" 
+                  d="M0 22.75L11.06 22.75L11.06 0L0 0L0 22.75ZM9.51 0.84L5.48 10.31L1.46 0.84L9.51 0.84ZM10.21 1.32L10.21 21.43L5.93 11.37L10.21 1.32ZM0.84 21.25L0.84 1.51L5.03 11.37L0.84 21.25ZM9.51 21.9L1.46 21.9L5.48 12.43L9.51 21.9Z"  
+                  fill="#262626" 
+                  fill-opacity="1.000000" 
+                  ill-rule="evenodd"/>
+                </svg></a></li>
+                <li><a href="#"> <svg 
+                  width="11.062500" 
+                  height="22.750000" 
+                  viewBox="0 0 11.0625 22.75" 
+                  fill="none" 
+                  xmlns="http://www.w3.org/2000/svg" 
+                  xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path id="☲" 
+                  d="M0 22.75L11.06 22.75L11.06 0L0 0L0 22.75ZM9.51 0.84L5.48 10.31L1.46 0.84L9.51 0.84ZM10.21 1.32L10.21 21.43L5.93 11.37L10.21 1.32ZM0.84 21.25L0.84 1.51L5.03 11.37L0.84 21.25ZM9.51 21.9L1.46 21.9L5.48 12.43L9.51 21.9Z"  
+                  fill="#262626" 
+                  fill-opacity="1.000000" 
+                  ill-rule="evenodd"/>
+                </svg></a></li>
+              </ul>
+            </div>
+          
+          </nav>
+        </header>
+        <!--main-->
+        <div class="main-container">
+        <main>
+          <h2 class="article-title">Article Title.</h2>
+          <div class="article-description">
+            <img src="./images/main-img.jpg" alt="autumn forest with a river">
+            <div>
+              <h2>Article description.</h2>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+          </div>
+          <section class="article-content">
+            <div id="part1" class="article-items">
+              <h2>What is Lorem Ipsum?</h2>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                It has survived not only five centuries, but also the leap into electronic typesetting, 
+                remaining essentially unchanged. It was popularised in the 1960s with the release of 
+                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop 
+                publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+            <div id="part2" class="article-items">
+              <h2>Why do we use it?</h2>
+              <p>It is a long established fact that a reader will be distracted by the readable content 
+                of a page when looking at its layout. The point of using Lorem Ipsum is that it has 
+                a more-or-less normal distribution of letters, as opposed to using 'Content here, 
+                content here', making it look like readable English. Many desktop publishing packages 
+                and web page editors now use Lorem Ipsum as their default model text, and 
+                a search for 'lorem ipsum' will uncover many web sites still in their infancy. 
+                Various versions have evolved over the years, sometimes by accident, sometimes 
+                on purpose (injected humour and the like).</p>
+            </div>
+            <div id="part3" class="article-items">
+              <h2>Where does it come from?</h2>
+              <p id="p1" class="article-items"> Contrary to popular belief, Lorem Ipsum is not simply random text. 
+                It has roots in a piece of classical Latin literature from 45 BC, 
+                making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College 
+                in Virginia, looked up one of the more obscure Latin words, consectetur, 
+                from a Lorem Ipsum passage, and going through the cites of the word in classical literature, 
+                discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 
+                "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. 
+                This book is a treatise on the theory of ethics, very popular during the Renaissance. 
+                The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32. 
+                The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. 
+                Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced 
+                in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+              </p>
+              <p id="p2" class="article-items"> Contrary to popular belief, Lorem Ipsum is not simply random text. 
+                It has roots in a piece of classical Latin literature from 45 BC, 
+                making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College 
+                in Virginia, looked up one of the more obscure Latin words, consectetur, 
+                from a Lorem Ipsum passage, and going through the cites of the word in classical literature, 
+                discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 
+                "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. 
+                This book is a treatise on the theory of ethics, very popular during the Renaissance. 
+                The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32. 
+                The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. 
+                Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced 
+                in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+              </p>
+              <p id="p3" class="article-items"> Contrary to popular belief, Lorem Ipsum is not simply random text. 
+                It has roots in a piece of classical Latin literature from 45 BC, 
+                making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College 
+                in Virginia, looked up one of the more obscure Latin words, consectetur, 
+                from a Lorem Ipsum passage, and going through the cites of the word in classical literature, 
+                discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 
+                "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. 
+                This book is a treatise on the theory of ethics, very popular during the Renaissance. 
+                The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32. 
+                The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. 
+                Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced 
+                in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+              </p>
+            </div>
+            <div id="part4" class="article-items">
+              <h2>Where can I get some?</h2>
+              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+                If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't 
+                anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators 
+                on the Internet tend to repeat predefined chunks as necessary, making this the first true generator 
+                on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model 
+                sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is 
+                therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+            </div>
+          </section>
+          <section>
+            <h2>Suggested posts</h2>
+            <div id="carousel" class="carousel">
+              <button id="previous-btn" class="previous-btn"><img src="./images/svg/navigate_previous.svg" alt="arrow button"></button>
+              <div class="gallery">
+              </div>
+              <button id="next-btn" class="next-btn"><img src="./images/svg/navigate_next.svg" alt="arrow button"></button>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+      <!--Footer-->
+      <footer>
+        <div class="container">
+        <section class="first-section">
+          <div class="first-child">
+            <div class="logo-block">
+              <logo class="logo">AW</logo>
+              <h1>AWESOME BLOG</h1>
+            </div>
+            <p class="logo-paragraph">Our vision is to provide convenience <br> and help increase your sales business.</p>
+            <!-- social links block-->
+          <div>
+            <!-- facebook -->
+            <a href="#">
+              <img src="./images/svg/facebook.svg" alt="facebook icon">
+            </a>
+        
+            <!-- twiter-->
+            <a href="#">
+              <img src="./images/svg/twitter.svg" alt="twiter icon">
+            </a>
+          <!-- inst-->
+          <a href="#">
+              <img src="./images/svg/instagram.svg" alt="instagram icon">
+          </a>
+          </div>
+          </div>
+          <!-- footer links -->
+          <div class="footer-links"> 
+            <div>
+              <a href="#" class="title-link">About</a>
+              <ul>
+                <li><a href="#">How it works</a></li>
+                <li><a href="#">Featured</a></li>
+                <li><a href="#">Partnership</a></li>
+                <li><a href="#">Bussiness Relation</a></li>
+              </ul>
+            </div>
+            <div>
+              <a href="#" class="title-link">Community</a>
+              <ul>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Podcast</a></li>
+                <li><a href="#">Invite a friend</a></li>
+              </ul>
+            </div>
+            <div>
+              <a href="#" class="title-link">Socials</a>
+              <ul>
+                <li><a href="#">Discord</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="second-section">
+          <span>©2024 Company Name. All rights reserved</span>
+          <div>
+            <span>Privacy & Policy</span>
+            <span>Terms & Condition</span>
+          </div>
+
+        </section>
+      </div>
+      </footer>
+    
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
