@@ -1,4 +1,4 @@
-# Тестовое задание для стажировки на позицию Front-End разрбочика
+# Тестовое задание для стажировки на позицию Front-End разработчика
 
 ## Ссылка на материалы
 Ссылка на дизайн макет: [Figma](https://www.figma.com/design/HAjPYOFL9NgR30kgYHmoOg/%D0%92%D0%B5%D1%80%D1%81%D1%82%D0%BA%D0%B0?node-id=0-1&t=1Zb1tbldoLiP4hAH-0)
